@@ -2,7 +2,7 @@
 
 <h1> EC- Telefone </h1>
  
-phone:  document.querySelector('body').innerText.match(/\b(?:\+?55\s?)?(?:\(?[1-9][0-9]\)?\s?)?(?:9\d{4}|\d{4})[-]?\d{4}\b/g); 
+phone: document.querySelector('body').innerText.match(/\b(?:\+55\s?)?(?:\([1-9][0-9]\)\s?|\d{2}\s?)(\d{4})\s?(\d{4})\b/g)[0]
 
 
 <h2> EC-  e-mail </h2>
